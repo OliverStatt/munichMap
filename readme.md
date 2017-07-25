@@ -20,6 +20,6 @@ start the app by clicking on the index.html file.
 
 #### Live Demo:
 
-* http://www.oliverstatt.de/munichMap
+* http://www.oliverstatt.de/munich-map/index.html
 
 ##### the foursquare.com API is used to retrieve additional information
