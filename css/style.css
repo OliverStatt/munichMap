@@ -1,0 +1,77 @@
+#map {
+    bottom: 0px;
+    height: 100%;
+    left: 25%;
+    position: absolute;
+    right: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.aside {
+    width: 24%;
+}
+
+.addLocation {
+    margin-left: 8px;
+}
+
+#filterButton {
+    min-width: 125px;
+    margin: 5px;
+    min-height: 42px;
+}
+
+.filter {
+    padding: 20px 0;
+}
+
+#list {
+    height: 100%;
+    color: grey;
+    text-align: left;
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+select {
+    padding: 10px;
+    border-radius: 7px;
+}
+
+#list ul.list-group {
+    min-height: 200px;
+    margin-left: 8px;
+}
+
+@media (min-width: 1300px) {
+    .aside {
+        width: 19%;
+    }
+    #map {
+        left: 20%;
+    }
+}
+
+@media (max-width: 950px) {
+    .aside {
+        width: 29%;
+    }
+    #map {
+        left: 30%;
+    }
+    #list {
+        font-size: smaller;
+    }
+}
